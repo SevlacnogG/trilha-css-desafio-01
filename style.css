@@ -1,0 +1,109 @@
+@import url("reset.css");
+
+html, body {
+    width: 100vw;
+    margin: 0;
+    text-align: center;
+    font-family: "sans-serif";
+    background-color: black;
+}
+
+h1, h2{
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+h1{
+    background: -webkit-linear-gradient(rgba(0,100,183,255), rgba(1,130,179,255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 1200;
+    padding-top: 10px;
+}
+
+h2{
+    color: rgba(1,130,179,255);
+    font-weight: 500;
+    font-style: bold;
+}
+
+p, div{
+    color: white;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+span{
+    color: rgba(30, 160, 255, 255);
+}
+
+footer{
+    background: linear-gradient(black, rgba(6,32,40,255));
+    height: 200px;
+    border-top: 1px solid rgba(1,130,179,255);
+}
+
+button{
+    border: 1px solid rgba(1,130,179,255);
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(1,130,179,255);
+    height: 50px;
+    width: 260px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.banner {
+    background-image: url("/home/gabriel/Documentos/Estudos/TI/trilha-css-desafio-01-main/assets/images/banner.png");
+    background-image: url("/home/gabriel/Documentos/Estudos/TI/trilha-css-desafio-01-main/assets/images/banner.png"), linear-gradient(rgba(0,0,0,1), rgba(6,32,40,0.75) 50%, rgba(0,0,0,1) 100%);
+    object-fit: cover;
+    min-height: 450px;
+    border-bottom: 1px solid rgba(1,130,179,255);
+}
+
+#course-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.module{
+    border: 1px solid rgba(1,130,179,255);
+    border-radius: 50px;
+    background-color: rgba(41,42,42,255);
+    width: 500px;
+    height: 40px;
+    display: table;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px 0 20px 0;
+    text-justify: middle;
+    
+}
+
+#transform-world {
+    background-image: url("/home/gabriel/Documentos/Estudos/TI/trilha-css-desafio-01-main/assets/images/woman-code.png");
+    background-attachment: fixed;
+    background-size: cover;
+    object-position: center center;
+    height: 300px;
+    border-top: 1px solid rgba(1,130,179,255);
+    border-bottom: 1px solid rgba(1,130,179,255)	;
+    text-align: left;
+    padding-right: 74%;
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: 800;
+    text-shadow: 3px 3px rgba(1,130,179,255);
+    text-transform: lowercase;
+}
+
+#professional-challenges {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.dio-logo {
+    padding-top: 5em;
+}
